@@ -1,0 +1,30 @@
+⦁	Faça um programa, em Visualg, para receber as medidas da base e da altura de um retângulo. 
+O algoritmo deve calcular e apresentar o valor de seu perímetro (2*base + 2*altura).
+
+
+Algoritmo "semnome"
+//ATIVIDADE AVALIATIVA - ALGORITMOS E ESTRUTURA DE DADOS
+//Nome: Gustavo Azevedo
+//RA: 5158775
+//Atividade: Lista de Exercícios 1 - Exercício 1
+Var
+Var
+// Seção de Declarações das variáveis
+//bas=base alt=altura
+bas,alt,base,altura,Total:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+//adicionei mais variaveis para testar como seria.
+Escreval("Insira a base: ")
+leia(bas)
+Escreval("Insira a altura: ")
+leia(alt)
+base <- 2*bas
+altura <- 2*alt
+Total <-  base+altura
+escreval("O perimetro é: ",Total)
+
+
+
+Fimalgoritmo
