@@ -1,0 +1,28 @@
+⦁	Faça um programa, em Visualg, que leia a largura e altura de uma parede, 
+calcule e mostre a área a ser pintada e a quantidade de tinta necessária para
+o serviço, sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+
+
+
+
+Algoritmo "semnome"
+//ATIVIDADE AVALIATIVA - ALGORITMOS E ESTRUTURA DE DADOS
+//Nome: Gustavo Azevedo
+//RA: 5158775
+//Atividade: Lista de Exercícios 1 - Exercício 1
+Var
+// Seção de Declarações das variáveis 
+largura,altura,litro,total:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Qual a largura? ")
+leia(largura)
+escreval("Qual a altura? ")
+leia(altura)
+litro<-(altura+largura)^2
+escreval("vai precisar de ",litro," litros de tinta")
+
+
+
+Fimalgoritmo
