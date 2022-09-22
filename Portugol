@@ -1,0 +1,18 @@
+Algoritmo "Aula01"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Stefano 
+// Data atual  : 21/09/2022
+Var
+// Seção de Declarações das variáveis 
+Valor,vezes,Total:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Valor da compra: ")
+leia (Valor)
+escreval("Parcelas: ")
+leia (vezes)
+Total <- valor/vezes
+escreval("O valor das parcelas será de: ", Total)
+
+Fimalgoritmo
