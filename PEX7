@@ -1,0 +1,31 @@
+⦁	Desenvolva um programa, em Visualg, que leia uma distância em metros e mostre os valores relativos em outras medidas (km e cm).
+Ex: Digite uma distância em metros: 185.72
+A distância de 85.7m corresponde a: 0.18572Km
+A distância de 85.7m corresponde a: 18572.0cm
+
+
+
+
+
+Algoritmo "semnome"
+//ATIVIDADE AVALIATIVA - ALGORITMOS E ESTRUTURA DE DADOS
+//Nome: Gustavo Azevedo
+//RA: 5158775
+//Atividade: Lista de Exercícios 1 - Exercício 1
+Var
+// Seção de Declarações das variáveis 
+ me,km,cm:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Quantos metros quer converter?")
+leia(me)
+km<-me/1000
+cm<-me*1000
+escreval("Os valores em centimetros são: ",cm)
+escreval("Os valores em quilometros são: ",km)
+
+
+
+
+Fimalgoritmo
