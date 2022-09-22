@@ -8,7 +8,6 @@ Algoritmo "semnome"
 //RA: 5158775
 //Atividade: Lista de Exercícios 1 - Exercício 1
 Var
-Var
 // Seção de Declarações das variáveis
 //bas=base alt=altura
 bas,alt,base,altura,Total:real
