@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+//ATIVIDADE AVALIATIVA - ALGORITMOS E ESTRUTURA DE DADOS
+//Nome: Gustavo Azevedo
+//RA: 5158775
+//Atividade: Lista de Exercícios 1 - Exercício 1
+Var
+// Seção de Declarações das variáveis 
+nota1,nota2,Total:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Insira nota 1: ")
+leia(nota1)
+Escreval("Insira nota 2: ")
+leia(nota2)
+Total<-(nota1+nota2)/2
+escreval("Sua média é de: ",Total)
+
+
+
+
+
+
+Fimalgoritmo
