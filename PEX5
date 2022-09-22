@@ -1,0 +1,32 @@
+⦁	Faça um programa em Visualg que receba o salário de um funcionário e o 
+percentual de aumento, calcule e mostre o valor do aumento e o novo salário. 
+
+
+//esse eu n soube resolver mas tentei, se souber comenta como pf.
+
+
+Algoritmo "semnome"
+//ATIVIDADE AVALIATIVA - ALGORITMOS E ESTRUTURA DE DADOS
+//Nome: Gustavo Azevedo
+//RA: 5158775
+//Atividade: Lista de Exercícios 1 - Exercício 1
+Var
+// Seção de Declarações das variáveis
+//bas=base alt=altura
+salario,almento,novo,Total:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+//adicionei mais variaveis para testar como seria.
+Escreval("Insira seu salario: ")
+leia(salario)
+Escreval("Insira o percentoal de almento: ")
+leia(almento)
+novo<- salario*almento
+total <- novo/100
+
+escreval("Seu novo salario: ",Total)
+
+
+
+Fimalgoritmo
