@@ -1,0 +1,26 @@
+⦁	A locadora de carros precisa da sua ajuda para cobrar seus serviços. Escreva um programa, 
+em Visualg, que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias 
+pelos quais ele foi alugado. Calcule o preço total a pagar, sabendo que o carro custa R$90 por dia e R$0,50 por Km rodado.
+
+
+
+
+Algoritmo "semnome"
+//ATIVIDADE AVALIATIVA - ALGORITMOS E ESTRUTURA DE DADOS
+//Nome: Gustavo Azevedo
+//RA: 5158775
+//Atividade: Lista de Exercícios 1 - Exercício 1
+Var
+// Seção de Declarações das variáveis 
+KM,dias,peco:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Quantos km o carro rodou? ")
+leia(KM)
+escreval("Quantos dias o carro fico alugado? ")
+leia(dias)
+peco<-(dias*90)+(KM*0.50)
+escreval("Opreço final será de: ", peco)
+
+Fimalgoritmo
