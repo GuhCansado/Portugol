@@ -1,0 +1,16 @@
+
+
+Algoritmo "L2"
+// Data atual  : 29/09/2022
+Var
+// Seção de Declarações das variáveis 
+metros,total:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Quantos metros percorreu? ")
+leia(metros)
+total<- metros * 3.6
+escreval("Percorreu ",total," de km no total!")
+
+Fimalgoritmo
