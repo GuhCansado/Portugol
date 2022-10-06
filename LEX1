@@ -1,0 +1,18 @@
+Algoritmo "L2"
+// Data atual  : 29/09/2022
+Var
+// Seção de Declarações das variáveis 
+bme,bma2,total,alt:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Qual o menor valor?")
+leia(bme)
+escreval("Qual menor valor?")
+leia(bma2)
+escreval("Altura?")
+leia(alt)
+total<-((bme+bma2)*alt)/2
+escreval("O total é de: ",total)
+
+Fimalgoritmo
