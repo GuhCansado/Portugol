@@ -1,0 +1,20 @@
+Var
+// Seção de Declarações das variáveis 
+valor1 , valor2, final:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Valor 1: ")
+leia(valor1)
+escreva("Valor 2: ")
+leia(valor2)
+se valor1 >= valor2 entao
+final<- valor1-valor2
+escreval("a diferença é:",final)
+senao
+final<- valor2-valor1
+escreval("a diferença é:",final)
+fimse
+
+
+Fimalgoritmo
