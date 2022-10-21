@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+//6)	Ler um número e informar se ele é positivo, negativo ou nulo
+Var
+// Seção de Declarações das variáveis 
+num,fim:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Escolha um numero:")
+leia(num)
+se num<0 entao
+escreva("O numero ",num," é negativo")
+senao
+     se num>0 entao
+     escreva("O numero ",num," é positivo")
+     senao
+     escreva("o numero é neutro")
+     fimse
+fimse
+
+
+
+Fimalgoritmo
