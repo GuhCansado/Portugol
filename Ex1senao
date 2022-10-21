@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+//1)	O departamento de vendas de uma empresa precisa de definir o preço
+ //final de suas mercadorias. Para isso, faça um programa que receba o
+ //valor base da mercadoria. Caso a mercadoria tem um valor base inferior a
+ //R$50 o preço final será acrescido 20% no valor base. Caso contrário,
+ //será acrescido 30%.
+ //O programa deverá mostrar ao final o valor base e final da mercadoria.
+Var
+// Seção de Declarações das variáveis 
+ent,final:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Escreva o valor do produto: ")
+leia(ent)
+se ent<50 entao
+final<-((20/100)*ent)+ent
+senao
+final<-((30/100)*ent)+ent
+fimse
+escreval("O valor é:",final)
+Fimalgoritmo
