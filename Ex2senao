@@ -1,0 +1,34 @@
+Algoritmo "semnome"
+//2)	Considerando como entrada a altura e o
+//sexo (codificado da seguinte forma: 1: feminino 2: masculino)
+//de uma pessoa, construa um programa que calcule e mostre seu peso
+//ideal, utilizando as seguintes fórmulas:
+
+//- para homens: (72.7 * Altura) - 58
+//- para mulheres: (62.1 * Altura) - 44.7
+
+Var
+// Seção de Declarações das variáveis 
+sex,altura,final:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Qual sua altura?")
+leia(altura)
+escreval("Qual seu sexo?")
+escreval("1- Homem")
+escreval("2- Mulher")
+leia(sex)
+se sex=1 entao
+final<-(72.7*altura)-58
+senao
+ se sex=2 entao
+ final<-(62.1*altura)-44.7
+ senao
+ escreval("Opçao invalida")
+ fimse
+fimse
+escreval("--------------------")
+escreval("o resultado é: ",final)
+escreval("--------------------")
+Fimalgoritmo
