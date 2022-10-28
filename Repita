@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Os programa boladão 
+// Gustavo azevedo 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 27/10/2022
+Var
+// Seção de Declarações das variáveis 
+a,b,c:inteiro
+f:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+a<- 0
+b<- 0
+repita
+a<- a+1
+escreval("Numero: ",a)
+b<-a+1
+ate(a >=10)
+se a = 10 entao
+escreval("final do alg")
+senao
+escreval("Error")
+fimse
+
+Fimalgoritmo
