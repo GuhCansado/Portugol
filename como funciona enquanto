@@ -1,0 +1,19 @@
+Algoritmo "semnome"
+// Os programa boladão 
+// Gustavo azevedo 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/11/2022
+Var
+// Seção de Declarações das variáveis 
+conta:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+conta<-1
+enquanto (conta<=100) faca
+conta<-conta+1
+escreval(conta)
+fimenquanto
+
+Fimalgoritmo
