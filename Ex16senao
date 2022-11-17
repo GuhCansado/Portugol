@@ -1,0 +1,26 @@
+16.	Faça um algoritmo que calcule o valor de A, dado por: 
+
+N-1/2+n-2/3...1/n 
+
+Onde, N é um número inteiro positivo fornecido pelo usuário.
+
+
+
+Var
+// Seção de Declarações das variáveis 
+N,contador:inteiro
+A1:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Escreva um numero")
+leia(N)
+A1<-0
+para contador de 0 ate N passo 1 faca
+A1<-A1+(N-contador)/(contador+1)
+escreval(A1)
+fimpara
+
+
+
+Fimalgoritmo
