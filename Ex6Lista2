@@ -1,0 +1,51 @@
+Algoritmo "semnome"
+// 6.	Crie um programa que leia 3 valores (0 ou 1)
+// e que apresente as saídas de acordo com a tabela abaixo:
+Var
+// Seção de Declarações das variáveis 
+A,B,C:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Marque 0 ou 1")
+leia(A)
+Escreval("Marque 0 ou 1")
+leia(B)
+Escreval("Marque 0 ou 1")
+leia(C)
+se ((A=0)e(B=0)e(C=0))entao
+escreva("Nem um")
+senao
+  se ((A=0)e(B=0)e(C=1))entao
+  escreva("Direita")
+  senao
+    se ((A=0)e(B=1)e(C=0))entao
+    escreva("Centro")
+    senao
+      se ((A=0)e(B=1)e(C=1))entao
+      escreva("Centro-Direita")
+      senao
+        se ((A=1)e(B=0)e(C=0))entao
+        escreva("Esquerda")
+        senao
+           se ((A=1)e(B=0)e(C=1))entao
+           escreva("Esquerda-Direita")
+           senao
+              se ((A=1)e(B=1)e(C=0))entao
+              escreva("Centro-Esquerda")
+              senao
+               escreva("erro")
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+           
+
+Fimalgoritmo
+
+
+
+note que para cada "se" deve-se adicionar um fimse.
