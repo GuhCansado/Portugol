@@ -1,0 +1,53 @@
+Algoritmo "semnome"
+//7.	O cardápio de uma lanchonete é o seguinte:
+//Especificação		Preço unitário
+//----------------------------------------------------------
+//100 Cachorro quente 	R$10,00
+//101 Bauru simples 	R$12,30
+//102 Bauru c/ovo 	R$13,50
+//103 Hamburger		R$14,10
+//104 X Burger		R$16,30
+//105 Refrigerante lata	R$3,50
+//Escrever um algoritmo que leia o código do
+//item pedido, a quantidade e calcule o valor
+//a ser pago pelo lanche. Considere que a cada
+//execução somente será calculado um item.
+
+Var
+// Seção de Declarações das variáveis 
+A:inteiro
+B:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+EscrevaL("Selecione o numero do pedido")
+Leia(A)
+B<-0
+se A=100 entao
+B<-B+10
+senao
+ se A=101 entao
+ B<-B+12.30
+ senao
+  se A=102 entao
+  B<-B+13.50
+  senao
+   se A=103 entao
+   B<-B+14.10
+   senao
+    senao
+    se A=104 entao
+    B<-B+16.30
+    senao
+     se A=105 entao
+     B<-B+3.50
+     senao
+       escreva("Erro numero invalido")
+fimse
+fimse
+fimse
+fimse
+fimse
+escreval("Total a pagar:",B)
+
+Fimalgoritmo
