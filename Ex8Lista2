@@ -1,0 +1,15 @@
+Algoritmo "semnome"
+//8.	Faça um programa em Visualg que
+//exibe 1000 valores numéricos inteiros.
+Var
+// Seção de Declarações das variáveis 
+conta:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+conta<- 0
+enquanto conta<1000 faca
+conta<-conta+1
+escreval("Nº: ",conta)
+fimenquanto
+Fimalgoritmo
