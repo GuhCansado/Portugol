@@ -1,0 +1,249 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/12/2022
+Var
+// Seção de Declarações das variáveis 
+Iniciar,A:real
+contador:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operador
+timer 10
+limpatela(             )
+escreval ("     ")
+escreval ("      |\      _,,,---,,_")
+escreval ("ZZZzz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+escreval("[1] Iniciar Jogo")
+leia(Iniciar)
+
+timer 500
+limpatela
+timer 10
+contador<-20
+se Iniciar>=1 entao
+
+enquanto contador>0 faca
+escreval("  ")
+escreval ("      |\      _,-----,,_")
+escreval ("ZZzzz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,,,---,,_")
+escreval ("zzZZZ /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,-----,,_")
+escreval ("zZZZz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+contador<- contador-1
+fimenquanto
+contador<-10
+enquanto contador>0 faca
+timer 40
+limpatela
+timer 0
+escreval ("    /\_/\           ___ ")
+escreval ("   = -_- =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+contador<- contador-1
+fimenquanto
+timer 1200
+limpatela
+timer 0
+escreval ("    /\_/\           ___ ")
+escreval ("   = -_- =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+timer 100
+escreval (" OOhhhaaa(Bocejo), mais um dia chato ")
+timer 3800
+limpatela
+timer 0
+escreval ("    /\_/\           ___ ")
+escreval ("   = 0_0 =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+timer 100
+escreval (" Se bem que ultimamente a casa anda meio vazia ")
+timer 3800
+limpatela
+timer 15
+escreval ("                                       ")
+escreval ("    _________H ,%%&%,                  ")
+escreval ("   /\     _   \%&&%%&%                 ")
+escreval ("  /  \___/^\___\%&%%&&                 ")
+escreval ("  |  | []   [] |%\Y&%'                 ")
+escreval ("  |  |   .-.   | ||                    ")
+escreval ("~~@._|@@_|||_@@|~||~~~~~~~~~~~~~       ")
+escreval ("-------------------------------        ")
+escreval("       ")
+timer 100
+escreval (" Há meses não vejo nem um humano ")
+escreval(" nem se quer passar perto dessa casa ")
+iniciar<-0
+fimse
+escreval("       ")
+escreval("       ")
+escreval("       ")
+escreval("       ")
+escreval("       ")
+escreval ("    /\_/\           ___ ")
+escreval ("   = -_- =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+escreval("         ")
+escreval("[1] Voltar a dormir  ")
+escreval("[2] explorar a casa  ")
+leia(Iniciar)
+se Iniciar=1 entao
+contador<-2000
+enquanto contador>0 faca
+escreval("  ")
+escreval ("      |\      _,-----,,_")
+escreval ("ZZzzz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,,,---,,_")
+escreval ("zzZZZ /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,-----,,_")
+escreval ("zZZZz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+contador<- contador-1
+fimenquanto
+senão
+contador<-10
+Iniciar<-0
+escreval(" _._     _,-'--`-._       ")
+escreval("(,-.`._,'(       |\`-/|   ")
+escreval("    `-.-' \ )-`( , o o)   ")
+escreval("          `-    \`_`-'-   ")
+escreval("                          ")
+timer 100
+escreval("Okay vou explorar a casa")
+escreval("quem sabe algo mudou")
+timer 3000
+limpatela
+timer 0
+fimse
+A<-0
+enquanto A>0 faca
+timer 50
+escreval("|               |")
+escreval("|  | \          |")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \__|  | |")
+escreval("|  |    |__|  | |")
+escreval("|  |   /   |  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+escreval("|               |")
+escreval("|               |")
+escreval("/               \ ")
+escreval("/                \ ")
+escreval("/                \ ")
+escreval("  ")
+escreval("[1] Ir a direita ->")
+escreval("[2] Ir a esquerda <- ")
+escreval("[3] Seguir reto Î")
+leia(Iniciar)
+
+se Iniciar=1 entao
+escreval("8888888888888888888888888888888888888888888888888")
+escreval(".  -_-_ _-_  _-  _- -_ -  .'|   |.'|     |  _..88")
+escreval ("|.  -_ -__ -_ _- _-_-  .'  |.;'   |   _.!-'|  88")
+escreval(";!  ;. ______________ ,'| .-' |   _!.i'     |  88")
+escreval(" `.| |_______________||. '|  _!.;'   |     _|..88")
+escreval(";.| i|_|MMMMMMMMMMM|_|'| _!-|   |   _|..-|'    88")
+escreval("| `;!|l|MMMMMMMMMMM|1|.'j   |_..!-'|     |     88")
+escreval(" -,!_|_|MMMMMMMMMMM|_||.!-;'  |    |     |     88")
+escreval(",.!,!|d|MMMMMMMMMMM|p|,!,.!.,.!..__|_____|_____88")
+escreval("  || |_|MMMMMMMMMMM|_|| |   |   |    |      |  88")
+escreval(".-;'i|r|MMMMMMMMMMM|r| |`-..|   |    |      |  88")
+escreval(".-j' |_|MMMMMMMMMMM|_||!._|  `i-!.._ |      |  88")
+escreval("|  !;|1|MMMMMMMMMMM|l|`.| `-._|    |``-.._  |  88")
+escreval("!-| !|_|MMMMMMMMMMM|_|.|`-. | ``._ |     |`` ..88")
+escreval("  !| |u|MMMMMMMMMMM|n||`. |`!   | ` .    |     88")
+escreval(".' |/|_|MMMMMMMMMMM|_|! |`!  `,.|    |-._|     88")
+escreval("| .'|[@]MMMMMMMMMMM[@] \|  `. | `._  |   `-._  88")
+escreval("|/| /                 \|`.  |`!    |.|      |`-88")
+escreval("' |/                   \  \ |  `.  | `._    |  88")
+escreval("  /                     \ |`!   |`.|    `.  |  88")
+escreval(" /                       \|  `  |  `.    |`.|  88")
+escreval("     ")
+timer 50
+escreval("Droga!!!")
+escreval("A porta esta trancada ")
+escreval("E como eu poderia passar sou apenas um gato ")
+escreval("Vou voltar.")
+Iniciar<-0
+fimse
+timer 3000
+limpatela
+timer 50
+escreval("|               |")
+escreval("|  | \          _|")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \__|  | |")
+escreval("|  |    |__|  | |")
+escreval("|  |   /   |  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+escreval("|               |")
+escreval("|               |")
+escreval("/               \ ")
+escreval("/                \ ")
+escreval("/                \ ")
+escreval("  ")
+escreval("[1] Ir a direita ->")
+escreval("[2] Ir a esquerda <- ")
+escreval("[3] Seguir reto Î")
+leia(Iniciar)
+
+
+
+
+
+Fimalgoritmo
