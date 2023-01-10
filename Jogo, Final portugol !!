@@ -1,0 +1,793 @@
+Algoritmo "Joguinho legal"
+Var
+Iniciar,A:real
+contador,livro:inteiro
+
+Inicio
+timer 10
+limpatela(             )
+escreval ("     ")
+escreval ("      |\      _,,,---,,_")
+escreval ("ZZZzz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+escreval("[1] Iniciar Jogo")
+leia(Iniciar)
+
+timer 500
+limpatela
+timer 10
+contador<-20
+se Iniciar>=1 entao
+
+enquanto contador>0 faca
+escreval("  ")
+escreval ("      |\      _,-----,,_")
+escreval ("ZZzzz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,,,---,,_")
+escreval ("zzZZZ /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,-----,,_")
+escreval ("zZZZz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+contador<- contador-1
+fimenquanto
+contador<-10
+enquanto contador>0 faca
+timer 40
+limpatela
+timer 0
+escreval ("    /\_/\           ___ ")
+escreval ("   = -_- =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+contador<- contador-1
+fimenquanto
+timer 1200
+limpatela
+timer 0
+escreval ("    /\_/\           ___ ")
+escreval ("   = -_- =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+timer 100
+escreval (" OOhhhaaa(Bocejo), mais um dia chato ")
+timer 3800
+limpatela
+timer 0
+escreval ("    /\_/\           ___ ")
+escreval ("   = 0_0 =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+timer 100
+escreval (" Se bem que ultimamente a casa anda meio vazia ")
+timer 3800
+limpatela
+timer 15
+escreval ("                                       ")
+escreval ("    _________H ,%%&%,                  ")
+escreval ("   /\     _   \%&&%%&%                 ")
+escreval ("  /  \___/^\___\%&%%&&                 ")
+escreval ("  |  | []   [] |%\Y&%'                 ")
+escreval ("  |  |   .-.   | ||                    ")
+escreval ("~~@._|@@_|||_@@|~||~~~~~~~~~~~~~       ")
+escreval ("-------------------------------        ")
+escreval("       ")
+escreval("                          ")
+escreval (" H� meses n�o vejo nem um humano ")
+escreval(" nem se quer passar perto dessa casa ")
+timer 2000
+timer 50
+iniciar<-0
+fimse
+escreval("       ")
+escreval("       ")
+escreval("       ")
+escreval("       ")
+escreval("       ")
+escreval ("    /\_/\           ___ ")
+escreval ("   = -_- =_,----,_    \ \ ")
+escreval ("    __^      __(  \.__) )")
+escreval ("   <_____>__(_____)____/ ")
+escreval("         ")
+escreval("[1] Voltar a dormir  ")
+escreval("[2] explorar a casa  ")
+leia(Iniciar)
+se Iniciar=1 entao
+contador<-2000
+enquanto contador>0 faca
+escreval("  ")
+escreval ("      |\      _,-----,,_")
+escreval ("ZZzzz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,,,---,,_")
+escreval ("zzZZZ /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+escreval ("     ")
+escreval ("      |\      _,-----,,_")
+escreval ("zZZZz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+timer 0
+limpatela
+timer 5
+contador<- contador-1
+fimenquanto
+sen�o
+contador<-10
+Iniciar<-0
+A<-3
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval("                          ")
+escreval(" _._     _,-'--`-._       ")
+escreval("(,-.`._,'(       |\`-/|   ")
+escreval("    `-.-' \ )-`( , o o)   ")
+escreval("          `-    \`_`-'-   ")
+escreval("                          ")
+timer 100
+escreval("Okay vou explorar a casa")
+escreval("quem sabe algo mudou")
+timer 3000
+limpatela
+timer 0
+fimse
+enquanto Iniciar=0 faca
+timer 50
+escreval("|               |")
+escreval("|  | \          |")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \__|  | |")
+escreval("|  |    |__|  | |")
+escreval("|  |   /   |  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+escreval("|               |")
+escreval("|               |")
+escreval("/               \ ")
+escreval("/                \ ")
+escreval("/                 \ ")
+escreval("  ")
+escreval("[1] Ir a direita ->")
+escreval("[2] Ir a esquerda <- ")
+escreval("[3] Seguir reto �")
+leia(Iniciar)
+se Iniciar=1 entao
+escreval("8888888888888888888888888888888888888888888888888")
+escreval(".  -_-_ _-_  _-  _- -_ -  .'|   |.'|     |  _..88")
+escreval ("|.  -_ -__ -_ _- _-_-  .'  |.;'   |   _.!-'|  88")
+escreval(";!  ;. ______________ ,'| .-' |   _!.i'     |  88")
+escreval(" `.| |_______________||. '|  _!.;'   |     _|..88")
+escreval(";.| i|_|MMMMMMMMMMM|_|'| _!-|   |   _|..-|'    88")
+escreval("| `;!|l|MMMMMMMMMMM|1|.'j   |_..!-'|     |     88")
+escreval(" -,!_|_|MMMMMMMMMMM|_||.!-;'  |    |     |     88")
+escreval(",.!,!|d|MMMMMMMMMMM|p|,!,.!.,.!..__|_____|_____88")
+escreval("  || |_|MMMMMMMMMMM|_|| |   |   |    |      |  88")
+escreval(".-;'i|r|MMMMMMMMMMM|r| |`-..|   |    |      |  88")
+escreval(".-j' |_|MMMMMMMMMMM|_||!._|  `i-!.._ |      |  88")
+escreval("|  !;|1|MMMMMMMMMMM|l|`.| `-._|    |``-.._  |  88")
+escreval("!-| !|_|MMMMMMMMMMM|_|.|`-. | ``._ |     |`` ..88")
+escreval("  !| |u|MMMMMMMMMMM|n||`. |`!   | ` .    |     88")
+escreval(".' |/|_|MMMMMMMMMMM|_|! |`!  `,.|    |-._|     88")
+escreval("| .'|[@]MMMMMMMMMMM[@] \|  `. | `._  |   `-._  88")
+escreval("|/| /                 \|`.  |`!    |.|      |`-88")
+escreval("' |/                   \  \ |  `.  | `._    |  88")
+escreval("  /                     \ |`!   |`.|    `.  |  88")
+escreval(" /                       \|  `  |  `.    |`.|  88")
+escreval("     ")
+timer 50
+escreval("Droga!!!")
+escreval("A porta esta trancada ")
+escreval("E como eu poderia passar sou apenas um gato ")
+escreval("Vou voltar.")
+Iniciar<-Iniciar-Iniciar
+timer 3000
+fimse
+timer 50
+se Iniciar=2 entao
+escreval("   .+------+                     ")
+escreval(" .' |      |          Oh � apenas")
+escreval("+   |      |            um quarto")
+escreval("|   |      |                     ")
+escreval("|  .+------+ tem uma mesa no canto")
+escreval("|.'      .'  mas o quarto passa   ")
+escreval("+------+'    uma sensa��o horrivel ")
+escreval(" ")
+escreval("H� algumas paginas largadas no ch�o")
+escreval("mas realmente n�o quero entrar ai! ")
+
+timer 30
+Iniciar<-Iniciar-2
+timer 3000
+fimse
+se iniciar=3 entao
+timer 70
+escreval("|               |")
+escreval("|  | \          |")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \  |  | |")
+escreval("|  |    |  |  | |")
+escreval("|  |   /   |  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+timer 2000
+escreval ("Voc� segue reto em um longo corredor ")
+timer 3000
+limpatela
+timer 70
+escreval("|  | \          |")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \  |  | |")
+escreval("|  |    |  |  | |")
+escreval("|  |   /   |  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+timer 1000
+escreval ("Conforme avan�a se sente cada vez mais vazio")
+escreval ("Isso vai te consumindo mas voc� avan�a lentamente")
+timer 3400
+limpatela
+timer 70
+escreval("|  | \          |")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \  |  | |")
+escreval("|  |    |  |  | |")
+escreval("|  |   /   |  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+escreval(" ")
+escreval("Voc� v� uma estante ")
+timer 3000
+limpatela
+timer 50
+escreval(" _________________________________________________________ ")
+escreval("||-------------------------------------------------------||")
+escreval("||.--.    .-._                        .----.             ||")
+escreval("|||==|____| |H|___            .---.___|    |_____.--.___ ||")
+escreval("|||  |====| | |xxx|_          |+++|=-=|_  _|-=+=-|==|---|||")
+escreval("|||==|    | | |   | \         |   |   |_\/_|     |  | ^ |||")
+escreval("|||  |    | | |   |\ \   .--. |   |=-=|_/\_|-=+=-|  | ^ |||")
+escreval("|||  |    | | |   |_\ \_( oo )|   |   |    |     |  | ^ |||")
+escreval("|||==|====| |H|xxx|  \ \ |''| |+++|=-=|    |-=+=-|==|---|||")
+escreval("||`--^----'-^-^---'   `-' --  '---^---^----^-----^--^---^||")
+escreval("||-------------------------------------------------------||")
+escreval("||-------------------------------------------------------||")
+escreval("||               ___                   .-.__.-----. .---.||")
+escreval("||              |===| .---.   __   .---| |XX|<(*)>|_|^^^|||")
+escreval("||         ,  /(|   |_|III|__|''|__|:x:|=|  |     |=| Q |||")
+escreval("||      _a'{ / (|===|+|   |++|  |==|   | |  |stefan | R |||")
+escreval("||      '/\\/ _(|===|-|   |  |''|  |:x:|=|  |     | | Y |||")
+escreval("||_____  -\{___(|   |-|   |  |  |  |   | |  |     | | Z |||")
+escreval("||       _(____)|===|+|[I]|DK|''|==|:x:|=|XX|<(*)>|=|^^^|||")
+escreval("||              `---^-^---^--^--'--^---^-^--^-----^-^---^||")
+escreval("||-------------------------------------------------------||")
+escreval("||_______________________________________________________||")
+escreval(" ")
+escreval("Um livro chama sua aten��o ")
+timer 1000
+
+senao
+escreval(" ")
+timer 3000
+Iniciar<-Iniciar-Iniciar
+fimse
+fimenquanto
+iniciar<-0
+timer 100
+escreval("  ")
+escreval("  ")
+timer 30
+limpatela
+escreval("   ,III, ")
+escreval("  /III/| ")
+escreval(" /III/ | ")
+escreval("|~~~|  | ")
+escreval("|===|  | ")
+escreval("|   |  | ")
+escreval("|   |  | ")
+escreval("|   | /  ")
+escreval("|===|/   ")
+escreval("'---'    ")
+escreval("Uma breve lemban�a vem a sua mente: ")
+timer 150
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+timer 170
+escreval("   ____________________________________________________  ")
+escreval("  |____________________________________________________| ")
+escreval("  | _____________________  ||      __   __  _  __    _ | ")
+escreval("  ||=|=|=|=|=|=|=|=|=|=|=| __..\/ |  |_|  ||#||==|  / /| ")
+escreval("  || | | | | | | | | | | |/\ \  \\|++|=|  || ||==| / / | ")
+escreval("  ||_|_|_|_|_|_|_|_|_|_|_/_/\_.___\__|_|__||_||__|/_/__| ")
+escreval("  |____________________ /   0  0   \ __________________| ")
+escreval("  | __   __    _  _     \_  (_    _/ _    ___     _____| ")
+escreval("  ||~~|_|..|__| || |_ _   \      /  |=|__|~|~|___| | | | ")
+escreval("  ||--|+|^^|==|1||2| | |__/\ __ /\__| |==|x|x|+|+|=|=|=| ")
+escreval("  ||__|_|__|__|_||_|_| /  \ \  / /  \_|__|_|_|_|_|_|_|_| ")
+escreval("  |_________________ _/    \/\/\/    \_ _______________| ")
+escreval("  | _____   _   __  |/      \../      \|  __   __   ___| ")
+escreval("  ||_____|_| |_|##|_||   |   \/ __|   ||_|==|_|++|_|-||| ")
+escreval("  ||______||=|#|--| |\   \   o    /   /| |  |~|  | | ||| ")
+escreval("  ||______||_|_|__|_|_\   \  o   /   /_|_|__|_|__|_|_||| ")
+escreval("  |_________ __________\___\____/___/___________ ______| ")
+escreval("  |__    _  /    ________     ______           /| _ _ _| ")
+timer 2070
+limpatela
+timer 1000
+escreval(" ")
+escreval(" ")
+escreval(" ")
+timer 2500
+escreval("Seu dono era gentil, amava leitura e sempre o pegava no colo ")
+escreval("durante suas longas sessoes de leitura")
+timer 150
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+timer 2500
+escreval("O silencio em sua mente prevalece ap�s se lembrar como eram")
+escreval("os momentos felizes com seu dono  ")
+escreval("  ")
+escreval("  ")
+timer 2500
+timer 20
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("  ")
+escreval("       _                             ")
+escreval("       \`*-.                         ")
+escreval("        )  _`-.                      ")
+escreval("       .  : `. .                     ")
+escreval("       : _   '  \                    ")
+escreval("       ; *` _.   `*-._               ")
+escreval("       `-.-'          `-.            ")
+escreval("         ;       `       `.          ")
+escreval("         :.       .        \         ")
+escreval("         . \  .   :   .-'   .        ")
+escreval("         '  `+.;  ;  '      :        ")
+escreval("         :  '  |    ;       ;-.      ")
+escreval("         ; '   : :`-:     _.`* ;     ")
+escreval("      .*' /  .*' ; .*`- +'  `*'      ")
+escreval("      `*-*   `*-*  `*-*'             ")
+timer 3570
+timer 500
+escreval("  ")
+escreval("N�o tenho como ficar pensando nisso preciso continuar")
+escreval("  ")
+escreval("  ")
+timer 3570
+limpatela
+timer 100
+escreval("   ,III, ")
+escreval("  /III/| ")
+escreval(" /III/ | ")
+escreval("|~~~|  | ")
+escreval("|===|  | ")
+escreval("|   |  | ")
+escreval("|   |  | ")
+escreval("|   | /  ")
+escreval("|===|/   ")
+escreval("'---'    ")
+escreval("  ")
+escreval("Novamente volta sua aten��o para o livro ")
+timer 2570
+limpatela
+timer 100
+contador<-1
+
+escreval("   ,III, ")
+escreval("  /III/| ")
+escreval(" /III/ | ")
+escreval("|~~~|  | ")
+escreval("|===|  | ")
+escreval("|   |  | ")
+escreval("|   |  | ")
+escreval("|   | /  ")
+escreval("|===|/   ")
+escreval("'---'    ")
+escreval("  ")
+escreval("O que voc� quer fazer com o livro? ")
+escreval("[1] Abrir o livro")
+escreval("[2] Deixa-lo de lado")
+leia(livro)
+enquanto contador>0 faca
+
+se livro=1 entao
+timer 2570
+limpatela
+timer 100
+escreval("  ")
+escreval("        ______ ______          ")
+escreval("       /      Y      \         ")
+escreval("      / ~~ ~~ | ~~ ~  \_       ")
+escreval("     / ~ ~ ~~ | ~~~ ~~ _\      ")
+escreval("    /________.|.______\  \     ")
+escreval("    ---------`-'----------     ")
+escreval("  ")
+timer 700
+escreval(" Querido di�rio hoje � mais um dia cheio de ")
+escreval(" angustia e dor, eu realmente n�o sei qual � meu papel ")
+escreval(" minha vida esta cheia de arependimentos e escolhas das quais ")
+escreval(" eu jamais vou poder consertar ...")
+timer 10900
+limpatela
+timer 100
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval("As paginas est�o cheias de lagrimas e alguns peda�os foram ")
+escreval("rasgados eu realmente n�o sei oque pode ter acontecido... ")
+escreval("mas tenho medo do fim dessa hist�ria ")
+escreval("Lembro-me de ter visto paginas em algum lugar! ")
+escreval("Vou voltar e vasculhar ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+iniciar<-0
+timer 10900
+timer 50
+enquanto   Iniciar<=0    fa�a
+timer 50
+escreval("|               |")
+escreval("|  | \          |")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \__|  | |")
+escreval("|  |    |__|  | |")
+escreval("|  |   /   |  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+escreval("|               |")
+escreval("|               |")
+escreval("/               \ ")
+escreval("/                \ ")
+escreval("/                 \ ")
+escreval("  ")
+escreval("[1] Ir a direita ->")
+escreval("[2] Ir a esquerda <- ")
+leia(Iniciar)
+se Iniciar=1 entao
+escreval("8888888888888888888888888888888888888888888888888")
+escreval(".  -_-_ _-_  _-  _- -_ -  .'|   |.'|     |  _..88")
+escreval ("|.  -_ -__ -_ _- _-_-  .'  |.;'   |   _.!-'|  88")
+escreval(";!  ;. ______________ ,'| .-' |   _!.i'     |  88")
+escreval(" `.| |_______________||. '|  _!.;'   |     _|..88")
+escreval(";.| i|_|MMMMMMMMMMM|_|'| _!-|   |   _|..-|'    88")
+escreval("| `;!|l|MMMMMMMMMMM|1|.'j   |_..!-'|     |     88")
+escreval(" -,!_|_|MMMMMMMMMMM|_||.!-;'  |    |     |     88")
+escreval(",.!,!|d|MMMMMMMMMMM|p|,!,.!.,.!..__|_____|_____88")
+escreval("  || |_|MMMMMMMMMMM|_|| |   |   |    |      |  88")
+escreval(".-;'i|r|MMMMMMMMMMM|r| |`-..|   |    |      |  88")
+escreval(".-j' |_|MMMMMMMMMMM|_||!._|  `i-!.._ |      |  88")
+escreval("|  !;|1|MMMMMMMMMMM|l|`.| `-._|    |``-.._  |  88")
+escreval("!-| !|_|MMMMMMMMMMM|_|.|`-. | ``._ |     |`` ..88")
+escreval("  !| |u|MMMMMMMMMMM|n||`. |`!   | ` .    |     88")
+escreval(".' |/|_|MMMMMMMMMMM|_|! |`!  `,.|    |-._|     88")
+escreval("| .'|[@]MMMMMMMMMMM[@] \|  `. | `._  |   `-._  88")
+escreval("|/| /                 \|`.  |`!    |.|      |`-88")
+escreval("' |/                   \  \ |  `.  | `._    |  88")
+escreval("  /                     \ |`!   |`.|    `.  |  88")
+escreval(" /                       \|  `  |  `.    |`.|  88")
+escreval("     ")
+timer 50
+escreval("")
+escreval("Ainda esta trancado")
+escreval("nada novo aqui")
+escreval("Vou voltar.")
+Iniciar<- Iniciar-Iniciar
+timer 3000
+fimse
+
+se Iniciar=2 entao
+timer 50
+escreval("   .+------+                     ")
+escreval(" .' |      |                     ")
+escreval("+   |      |                     ")
+escreval("|   |      |                     ")
+escreval("|  .+------+                     ")
+escreval("|.'      .'                      ")
+escreval("+------+'                        ")
+escreval(" ")
+escreval("Sente um calafrio ao entrar no quarto")
+escreval("mesmo assim vai em frente")
+escreval("                                 ")
+escreval("Voc� encontra uma passagem por uma janela aberta")
+timer 4000
+limpatela
+timer 100
+escreval("                          ")
+escreval(" _._     _,-'--`-._       ")
+escreval("(,-.`._,'(       |\`-/|   ")
+escreval("    `-.-' \ )-`( , o o)   ")
+escreval("          `-    \`_`-'-   ")
+escreval("                          ")
+timer 1000
+limpatela
+timer 100
+escreval("    |\__/,|   (`\    ")
+escreval("  _.|o o  |_   ) )   ")
+escreval("-(((---(((--------   ")
+timer 1000
+limpatela
+timer 100
+escreval("Voc� encontra seu dono")
+escreval("Que gentilmente te chama com uma doce voz")
+timer 2500
+limpatela
+timer 100
+escreval("   |/|       ")
+escreval("   | |       ")
+escreval("   |/|       ")
+escreval("   | |       ")
+escreval("   |/|       ")
+escreval("  (___)      ")
+escreval("  (___)      ")
+escreval("  (___)      ")
+escreval("  (___)      ")
+escreval("  (___)      ")
+escreval("  /   \      ")
+escreval(" /     \     ")
+escreval("|       |    ")
+escreval("|       |    ")
+escreval("|       |    ")
+escreval(" \ ___ /     ")
+escreval("  -----      ")
+timer 200
+limpatela
+timer 100
+escreval("               ,                         ")
+escreval("            ,:' `..;                     ")
+escreval("            `. ,;;'%                     ")
+escreval("            +;;'%%%%%                    ")
+escreval("             /- %,)%%                    ")
+escreval("             `   \ %%                    ")
+escreval("              =  )/ \                    ")
+escreval("              `-'/ / \                   ")
+escreval("                /\/.-.\                  ")
+escreval("               |  (    |                 ")
+escreval("               |  |   ||                 ")
+escreval("               |  |   ||                 ")
+escreval("           _.-----'   ||                 ")
+escreval("          / \________,'|                 ")
+escreval("         (((/  |       |                 ")
+escreval("         /     |       |                 ")
+escreval("        /      |\      |                 ")
+escreval("       /       | \     |                 ")
+escreval("      /        |  \    |                 ")
+escreval("     /         |   \   |                 ")
+timer 800
+limpatela
+timer 100
+escreval(" ele o pega no colo")
+escreval("voc� adormece em paz sabendo que nada ruim aconteceu")
+timer 1500
+timer 50
+limpatela
+escreval ("     ")
+escreval ("      |\      _,,,---,,_")
+escreval ("ZZZzz /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+contador<- contador-1
+senao
+Iniciar<-Iniciar-Iniciar
+timer 2000
+Iniciar<-Iniciar-2
+timer 100
+fimse
+fimenquanto
+
+
+
+se livro=2 entao
+contador<- contador-1
+escreval("   ,III, ")
+escreval("  /III/| ")
+escreval(" /III/ | ")
+escreval("|~~~|  | ")
+escreval("|===|  | ")
+escreval("|   |  | ")
+escreval("|   |  | ")
+escreval("|   | /  ")
+escreval("|===|/   ")
+escreval("'---'    ")
+escreval(" ")
+escreval("Voc� percebe uma luz no fim do corredor que rouba sua aten��o ")
+escreval(" ")
+escreval("                     ")
+escreval(" ,_     _            ")
+escreval(" |\\_,-~/            ")
+escreval(" / _  _ |    ,--.    ")
+escreval("(  @  @ )   / ,-'    ")
+escreval(" \  _T_/-._( (       ")
+escreval(" /         `. \      ")
+escreval("|         _  \ |     ")
+escreval(" \ \ ,  /      |     ")
+escreval("  || |-_\__   /      ")
+escreval(" ((_/`(____,-'       ")
+timer 2000
+limpatela
+timer 70
+escreval("|  | \          |")
+escreval("|  |  \      /| |")
+escreval("|  |   \    / | |")
+escreval("|  |    \ /|  | |")
+escreval("|  |     /    | |")
+escreval("|  |   / --|  | |")
+escreval("|  |  /     \ | |")
+escreval("|  | /       \| |")
+escreval("|__|/         \_|")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval("                      (`.-,')    ")
+escreval("                    .-'     ;    ")
+escreval("                _.-'   , `,-     ")
+escreval("          _ _.-'     .'  /._     ")
+escreval("        .' `  _.-.  /  ,'._;)    ")
+escreval("       (       .  )-| (          ")
+escreval("        )`,_ ,'_,'  \_;)         ")
+escreval(" '_  _,'.'    \___,|             ")
+escreval("  ---.-                          ")
+escreval(" ")
+escreval(" ")
+escreval("Voc� segue at� a luz")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval("Voc� olha pela janela e v� a lua cheia emanando ")
+escreval("a mais bela luz que seus olhos ja viram ")
+escreval("por um breve instante nada mais importa  ")
+escreval("seus olhos se enchem com a luz que dilatam suas pupilas  ")
+escreval("e logo voc� olha um pouco mais a baixo da lua...  ")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+timer 10900
+timer 100
+escreval("                                  ,88888,      ")
+escreval("                                ,88'888'88,    ")
+escreval("                                88'88888'88    ")
+escreval("                                88,88888888    ")
+escreval("                                '88,888,88'    ")
+escreval("                                  '88888'      ")
+escreval("                                               ")
+escreval("                                               ")
+escreval("                                               ")
+escreval("                                               ")
+escreval("                                               ")
+escreval("                                               ")
+escreval("                                               ")
+escreval("                                               ")
+escreval("     ,%%%%%%%%,                                ")
+escreval("    %% %% %%%%%%                               ")
+escreval("   %%%% %%% %%%%%                              ")
+escreval("   %% %%% %%%% %%                              ")
+escreval("   %%%%% %% %% %                               ")
+escreval("   %  % %% %  %%                               ")
+escreval("    '%%\ `%/%%%                                ")
+escreval("      '%| |%|%                                 ")
+escreval("        | | (O                                 ")
+escreval("        | | |\                                 ")
+escreval("        | | >\                                 ")
+escreval("        | |                                    ")
+escreval("       /   \                                   ")
+escreval("^^^^^^^^^^^^^^^^^                              ")
+escreval(" ")
+escreval("Logo voc� percebe o que aconteceu")
+escreval("e no alge da noite vem a se deitar ")
+escreval("esperando por uma chance de ouvir novamente")
+escreval("a voz doce de deu dono lhe chamando mais uma vez")
+timer 10900
+limpatela
+timer 100
+escreval ("      |\      _,,,---,,_")
+escreval ("      /,`.-'`'    -.  ;-;;,_")
+escreval ("     |,4-  ) )-,_. ,\ (  `'-'")
+escreval ("    '---''(_/--'  `-'\_)")
+escreval ("")
+escreval ("Ent�o de cora��o partido voc� dorme ")
+escreval ("de modo a fazer com que isso acabe para sempre.")
+contador<- contador-1
+timer 10900
+timer 100
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+escreval ("")
+timer 50
+contador<- contador-1
+fimse
+fimse
+fimenquanto
+Fimalgoritmo
